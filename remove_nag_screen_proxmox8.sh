@@ -74,5 +74,4 @@ if grep -q "void({ //" "$PROXMOX_FILE" || grep -q "false" "$PROXMOX_FILE" | head
     echo "✅ Modification confirmée dans le fichier"
 else
     echo "⚠ La modification pourrait ne pas avoir été appliquée correctement"
-    echo "💡 Vérifiez manuellement le fichier ou contactez le support"
 fi
